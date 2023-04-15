@@ -1,8 +1,13 @@
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    </main>
+    <div className={`h-screen flex flex-col`}>
+      <div className={`flex flex-1`}>
+        <aside className={`w-64 bg-zinc-950`}>sidbar</aside>
+        <main className={`flex-1`}>content</main>
+      </div>
+      <footer className='bg-zinc-800'>footer</footer>
+    </div>
       
 )
 }
