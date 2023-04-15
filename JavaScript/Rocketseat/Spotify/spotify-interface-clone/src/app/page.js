@@ -27,21 +27,21 @@ export default function Home() {
               Your library
               </a>
           </nav>
-          <nav className={`mt-10 pt-10 border-t border-zinc-800 flex flex-col gap-2`}>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
-            <a href='#' className={`text-sm text-zinc-400`}>PlayList 1</a>
+          <nav className={`mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3`}>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>NGA </a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>SKETXE</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>PLUTONIO</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>EXTEMO SIGNO</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>MC CABINDA</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>ROD WAVE</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>POP SMOKE</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>LIL TJAY</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>OROCHI </a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>T-REX</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>THE WEEND</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>POST MALONE</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>ORUAM</a>
+            <a href='#' className={`text-sm text-zinc-400 hover:text-zinc-100`}>BORGE</a>
 
       
           </nav>
