@@ -1,4 +1,4 @@
-import {Home as Homeicon, Search, Library, ChevronLeft, ChevronRight} from "lucide-react"
+import {Home as Homeicon, Search, Library, ChevronLeft, ChevronRight, Play} from "lucide-react"
 import Image from "next/image"
 export default function Home() {
   return (
@@ -59,29 +59,47 @@ export default function Home() {
           <h1 className={`font-semibold text-3xl mt-10`}>Good Afternoon</h1>
 
           <div className={`grid grid-cols-3 gap-4 mt-4`}>
-            <a src='#' className={` bg-white/10 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/20 `}>
+            <a src='#' className={` group bg-white/5 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white//10 `}>
               <Image src='/nga_capa_King.jpg' width={'104'} height={'104'} alt='nga_capa_King'/>
               <strong>King</strong>
+              <button className={`w-12 h-12 flex items-center justify-center pl-1 text-black ml-auto mr-8 bg-green-400 rounded-full invisible group-hover:visible`}>
+                <Play />
+              </button>
             </a>
-            <a src='#' className={` bg-white/10 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/20`}>
+            <a src='#' className={`group bg-white/5 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/10`}>
               <Image src='/nga_capa_King.jpg' width={'104'} height={'104'} alt='nga_capa_King'/>
               <strong>King</strong>
+               <button className={`w-12 h-12 flex items-center justify-center pl-1 text-black ml-auto mr-8 bg-green-400 rounded-full invisible group-hover:visible`}>
+                <Play />
+              </button>
             </a>
-            <a src='#' className={` bg-white/10 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/20`}>
+            <a src='#' className={`group bg-white/5 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/10`}>
               <Image src='/nga_capa_King.jpg' width={'104'} height={'104'} alt='nga_capa_King'/>
               <strong>King</strong>
+               <button className={`w-12 h-12 flex items-center justify-center pl-1 text-black ml-auto mr-8 bg-green-400 rounded-full invisible group-hover:visible`}>
+                <Play />
+              </button>
             </a>
-            <a src='#' className={` bg-white/10 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/20`}>
+            <a src='#' className={`group bg-white/5 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/10`}>
               <Image src='/nga_capa_King.jpg' width={'104'} height={'104'} alt='nga_capa_King'/>
               <strong>King</strong>
+               <button className={`w-12 h-12 flex items-center justify-center pl-1 text-black ml-auto mr-8 bg-green-400 rounded-full invisible group-hover:visible`}>
+                <Play />
+              </button>
             </a>
-            <a src='#' className={` bg-white/10 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/20`}>
+            <a src='#' className={`group bg-white/5 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/10`}>
               <Image src='/nga_capa_King.jpg' width={'104'} height={'104'} alt='nga_capa_King'/>
               <strong>King</strong>
+               <button className={`w-12 h-12 flex items-center justify-center pl-1 text-black ml-auto mr-8 bg-green-400 rounded-full invisible group-hover:visible`}>
+                <Play />
+              </button>
             </a>
-            <a src='#' className={` bg-white/10 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/20`}>
+            <a src='#' className={`group bg-white/5 rounded overflow-hidden flex items-center gap-4 transitions-colors hover:bg-white/10`}>
               <Image src='/nga_capa_King.jpg' width={'104'} height={'104'} alt='nga_capa_King'/>
               <strong>King</strong>
+               <button className={`w-12 h-12 flex items-center justify-center pl-1 text-black ml-auto mr-8 bg-green-400 rounded-full invisible group-hover:visible`}>
+                <Play />
+              </button>
             </a>
           </div>
         </main>
