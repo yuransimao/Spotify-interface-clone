@@ -102,10 +102,63 @@ export default function Home() {
               </button>
             </a>
           </div>
-        </main>
+
+          <h2 className={`font-semibold text-2xl mt-10`}>Made for Yuran Simao</h2>
+
+          <div className={`grid grid-cols-5 gap-4 mt-4`}>
+            <a href="#" className={`bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10`}>
+            <Image src='/nga_capa_King.jpg' width={'120'} height={'120'} alt='nga_capa_King' 
+            className={`w-full`}/>
+            <strong className={`font-simebold`}>King</strong>
+            <span className={`text-sm text-zinc-500`}>Nga rapper Angolano </span>
+            </a>
+            <a href="#" className={`bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10`}>
+            <Image src='/nga_capa_King.jpg' width={'120'} height={'120'} alt='nga_capa_King' 
+            className={`w-full`}/>
+            <strong className={`font-simebold`}>King</strong>
+            <span className={`text-sm text-zinc-500`}>Nga rapper Angolano </span>
+            </a>
+            <a href="#" className={`bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10`}>
+            <Image src='/nga_capa_King.jpg' width={'120'} height={'120'} alt='nga_capa_King' 
+            className={`w-full`}/>
+            <strong className={`font-simebold`}>King</strong>
+            <span className={`text-sm text-zinc-500`}>Nga rapper Angolano </span>
+            </a>
+            <a href="#" className={`bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10`}>
+            <Image src='/nga_capa_King.jpg' width={'120'} height={'120'} alt='nga_capa_King' 
+            className={`w-full`}/>
+            <strong className={`font-simebold`}>King</strong>
+            <span className={`text-sm text-zinc-500`}>Nga rapper Angolano </span>
+            </a>
+            <a href="#" className={`bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10`}>
+            <Image src='/nga_capa_King.jpg' width={'120'} height={'120'} alt='nga_capa_King' 
+            className={`w-full`}/>
+            <strong className={`font-simebold`}>King</strong>
+            <span className={`text-sm text-zinc-500`}>Nga rapper Angolano </span>
+            </a>
+          </div>        
+          </main>
 
       </div>
-      <footer className={'bg-zinc-800 border-t border-zinc-700 p-6'}>footer</footer>
+      <footer className={ `bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between`}>
+        
+        <div className={`flex items-center gap-2`}>
+        <Image src='/nga_capa_King.jpg' width={'80'} height={'80'} alt='nga_capa_King'/>
+        <div className={`flex flex-col gap-1`}>
+          <strong>Mo nigga</strong>
+          <span>Nga</span>
+        </div>            
+        
+        </div>
+
+        <div>
+        
+        </div>
+
+        <div>
+        
+        </div>
+      </footer>
     </div>
       
 )
